@@ -37,26 +37,43 @@ running build_py
 running build_scripts
 running install_lib
 creating /usr/local/lib/python2.7/dist-packages/gameduino2
+
 copying build/lib.linux-i686-2.7/gameduino2/registers.py -> /usr/local/lib/python2.7/dist-packages/gameduino2
+
 copying build/lib.linux-i686-2.7/gameduino2/__init__.py -> /usr/local/lib/python2.7/dist-packages/gameduino2
+
 copying build/lib.linux-i686-2.7/gameduino2/prep.py -> /usr/local/lib/python2.7/dist-packages/gameduino2
+
 copying build/lib.linux-i686-2.7/gameduino2/psdparser.py -> /usr/local/lib/python2.7/dist-packages/gameduino2
+
 copying build/lib.linux-i686-2.7/gameduino2/base.py -> /usr/local/lib/python2.7/dist-packages/gameduino2
+
 copying build/lib.linux-i686-2.7/gameduino2/convert.py -> /usr/local/lib/python2.7/dist-packages/gameduino2
+
 copying build/lib.linux-i686-2.7/gameduino2/remote.py -> /usr/local/lib/python2.7/dist-packages/gameduino2
+
 copying build/lib.linux-i686-2.7/gameduino2/imbytes.py -> /usr/local/lib/python2.7/dist-packages/gameduino2
+
 byte-compiling /usr/local/lib/python2.7/dist-packages/gameduino2/registers.py to registers.pyc
+
 byte-compiling /usr/local/lib/python2.7/dist-packages/gameduino2/__init__.py to __init__.pyc
+
 byte-compiling /usr/local/lib/python2.7/dist-packages/gameduino2/prep.py to prep.pyc
+
 byte-compiling /usr/local/lib/python2.7/dist-packages/gameduino2/psdparser.py to psdparser.pyc
+
 byte-compiling /usr/local/lib/python2.7/dist-packages/gameduino2/base.py to base.pyc
+
 byte-compiling /usr/local/lib/python2.7/dist-packages/gameduino2/convert.py to convert.pyc
+
 byte-compiling /usr/local/lib/python2.7/dist-packages/gameduino2/remote.py to remote.pyc
+
 byte-compiling /usr/local/lib/python2.7/dist-packages/gameduino2/imbytes.py to imbytes.pyc
 running install_scripts
 copying build/scripts-2.7/gd2asset -> /usr/local/bin
 changing mode of /usr/local/bin/gd2asset to 775
 running install_egg_info
+
 Writing /usr/local/lib/python2.7/dist-packages/gameduino2-0.1.8.egg-info
 
 De ser correcto ya tenemos la herramienta preparada.
