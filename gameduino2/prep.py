@@ -431,7 +431,7 @@ class AssetBin(gameduino2.base.GD2):
         self.name = name
         self.addall()
         if len(self.alldata) > 0x200000:
-            print "Error: The data (%d bytes) is larger the the GD3 RAM" % len(self.alldata)
+            print "Error: The data (%d bytes) is larger the the GD2 RAM" % len(self.alldata)
             sys.exit(1)
         self.defines.append((self.prefix + "ASSETS_END", ul(len(self.alldata))))
         self.cmd_inflate(0)
@@ -439,7 +439,7 @@ class AssetBin(gameduino2.base.GD2):
         print 'Assets report'
         print '-------------'
         print 'Header file:    %s' % self.header
-        print 'GD3 RAM used:   %d' % len(self.alldata)
+        print 'GD2 RAM used:   %d' % len(self.alldata)
         if not self.asset_file:
             print 'Flash used:     %d' % len(calldata)
         else:
@@ -476,7 +476,7 @@ class ForthAssetBin(AssetBin):
             name = self.header
         self.name = name
         self.addall()
-        if len(self.alldata) > 0x40000:
+        if len(self.alldata) > 0x200000:
             print "Error: The data (%d bytes) is larger the the GD2 RAM" % len(self.alldata)
             sys.exit(1)
         self.defines.append((self.prefix + "ASSETS_END", ul(len(self.alldata))))
