@@ -439,7 +439,7 @@ class AssetBin(gameduino2.base.GD2):
         print 'Assets report'
         print '-------------'
         print 'Header file:    %s' % self.header
-        print 'GD2 RAM used:   %d' % len(self.alldata)
+        print 'GD3 RAM used:   %d' % len(self.alldata)
         if not self.asset_file:
             print 'Flash used:     %d' % len(calldata)
         else:
