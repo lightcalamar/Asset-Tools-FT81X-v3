@@ -19,4 +19,6 @@ Todo està descrito en el fichero PDF de este mismo repositorio.
 
 <a href="http://imgur.com/TWsz0Dg"><img src="http://i.imgur.com/TWsz0Dg.png" title="source: imgur.com" /></a>
 
+# Ejemplo de 711KBytes
 
+<a href="http://imgur.com/w4bGioV"><img src="http://i.imgur.com/w4bGioV.png" title="source: imgur.com" /></a>
