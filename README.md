@@ -13,24 +13,22 @@ y listas para compilar.
 las descomprimimos (pulsando boton derecho, y extraer), lo copiaremos todo a la carpeta 
 que hemos creado anteriormente
 
-una vez descomprimido nos vamos a la carpeta ../gd3asset/gameduino2-0.1.8/gameduino2/
+una vez descomprimido nos vamos a la carpeta /home/mi_usuario/gd3asset/gameduino2-0.1.8/gameduino2/
 Editaremos el fichero llamado prey.py con gedit  y buscaremos dos lineas exactamente la que pone;
 
-if len(self.alldata) > 0x40000: y la cambiaremos por if len(self.alldata) > 0x200000: y lo guardaremos
+<b>if len(self.alldata) > 0x40000: y la cambiaremos por if len(self.alldata) > 0x200000: </b>y lo guardaremos
 
 Ahora toca instalar dependencias de python y complilar el binario.
 
-  sudo apt-get install python-setuptools python-imaging
+  <b>sudo apt-get install python-setuptools python-imaging</b>
 
-nos situamos en la carpeta /home/ambi2/gd3asset/gameduino2-0.1.8/
+nos situamos en la carpeta /home/mi_usuario/gd3asset/gameduino2-0.1.8/
 Con el boton derecho del raton elejimos “Abrir terminal aqui”
 
-  sudo python setup.py install
+  <b>sudo python setup.py install</b>
 
 Lo normal es que salga esto;
 
-ambi2@ambi2-desktop:~/gd3asset/gameduino2-0.1.8$ sudo python setup.py install
-[sudo] password for ambi2: 
 running install
 running build
 running build_py
@@ -73,7 +71,11 @@ running install_scripts
 copying build/scripts-2.7/gd2asset -> /usr/local/bin
 changing mode of /usr/local/bin/gd2asset to 775
 running install_egg_info
-
 Writing /usr/local/lib/python2.7/dist-packages/gameduino2-0.1.8.egg-info
 
+
+
+
 De ser correcto ya tenemos la herramienta preparada.
+
+
