@@ -14,6 +14,6 @@ y listas para compilar.
 
 # Manual de instalación para Linux (Ubuntu 16.04)
 
-Todo està descrito en el fichero PDF de este mismo repositprio.
+Todo està descrito en el fichero PDF de este mismo repositorio.
 
 
