@@ -22,3 +22,7 @@ Todo està descrito en el fichero PDF de este mismo repositorio.
 # Ejemplo de 781KBytes
 
 <a href="http://imgur.com/w4bGioV"><img src="http://i.imgur.com/w4bGioV.png" title="source: imgur.com" /></a>
+
+# Manual de instalación en RaspBerry pi
+
+Tambien es funcional en RaspBerry pi, solo modelos 2 y 3. 
