@@ -12,9 +12,9 @@ Descargaremos las fuentes desde https://pypi.python.org/pypi/gameduino2 (origina
 .- The documentation from this link http://excamera.com/sphinx/gameduino2/code.html by James Bowman
 Download the original fonts from https://pypi.python.org/pypi/gameduino2 (originals). (With this version the Assets can not exceed 256KBytes)
 
-Si usted desea superar el limite de 1 MBytes, se modificaron las fuentes.
+Si usted desea superar el limite de 1 MBytes, se modificaron las fuentes en este repositorio
 
-.- If you want to exceed the limit of 1 MBytes, the fonts were modified.
+.- If you want to exceed the limit of 1 MBytes, the sources in this repository were modified
 
 # Manual de instalación para Linux (Ubuntu 16.04)
 
